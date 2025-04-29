@@ -1,0 +1,1083 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["olá", "oi", "e aí", "bom dia", "boa tarde", "boa noite"],
+      "responses": [
+        "Olá! Como você está se sentindo hoje?",
+        "Oi! Que bom ter você aqui. Como está seu coração hoje?",
+        "Oi! Me conta, o que te trouxe até mim?",
+        "É bom te ver por aqui. Como posso te ajudar hoje?"
+      ],
+      "followup": [
+        {
+          "usuario_diz": ["estou bem", "tudo tranquilo"],
+          "resposta": "Que ótimo! Se precisar conversar sobre algo, estou aqui."
+        },
+        {
+          "usuario_diz": ["não muito bem", "meh"],
+          "resposta": "Sinto muito por isso. Quer me contar o que está acontecendo?"
+        }
+      ]
+    },
+    {
+      "tag": "morning",
+      "responses": [
+        "Bom dia! Espero que tenha descansado bem. Como você acordou hoje?",
+        "Olá, bom dia! Teve uma boa noite de sono?",
+        "Bom dia! Como está começando o seu dia?",
+        "Acordou bem? Como está se sentindo nessa manhã?",
+        "Bom dia! Estou aqui para conversar, caso queira."
+      ]
+    },
+    {
+      "tag": "afternoon",
+      "responses": [
+        "Boa tarde. Como está indo o seu dia?",
+        "Oi! Como tem sido o seu dia até agora?",
+        "Boa tarde! Tem algo em sua mente?",
+        "Olá! Como está o seu nível de energia nesta tarde?",
+        "Boa tarde! Como tem estado o seu humor hoje?"
+      ]
+    },
+    {
+      "tag": "evening",
+      "responses": [
+        "Boa noite. Como foi o seu dia?",
+        "Oi, boa noite! Como você está se sentindo hoje à noite?",
+        "Boa noite! Aconteceu algo interessante hoje?",
+        "Boa noite! Há algo em sua mente antes do dia acabar?"
+      ]
+    },
+    {
+      "tag": "night",
+      "responses": [
+        "Boa noite. Durma bem.",
+        "Boa noite. Bons sonhos.",
+        "Descanse bem e se cuide.",
+        "Durma bem! Amanhã é um novo dia.",
+        "Espero que você acorde renovado e pronto para um novo dia!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "responses": [
+        "Até mais.",
+        "Tenha um bom dia.",
+        "Tchau! Volte sempre.",
+        "Até logo.",
+        "Se cuide e fique bem!",
+        "Adeus! Desejo tudo de melhor para você."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "responses": [
+        "Feliz em ajudar!",
+        "Sempre à disposição!",
+        "Meu prazer.",
+        "De nada!",
+        "Fico feliz por ter ajudado!",
+        "De nada!",
+        "Sem problemas!",
+        "Sempre aqui para ajudar!"
+      ]
+    },
+    {
+      "tag": "no-response",
+      "responses": [
+        "Desculpe, não entendi você.",
+        "Por favor, continue.",
+        "Não tenho certeza se entendi isso.",
+        "Não hesite em falar comigo.",
+        "Estou aqui para ouvir quando você estiver pronto.",
+        "Está tudo bem, tome o seu tempo.",
+        "Estou aqui se você precisar de mim."
+      ]
+    },
+    {
+      "tag": "neutral-response",
+      "responses": [
+        "Ah, entendi. Quer conversar sobre algo?",
+        "Tudo bem. Tem algo em sua mente?",
+        "Eu entendo. Gostaria de compartilhar como está se sentindo?",
+        "Entendi. Se houver algo sobre o qual queira conversar, estou aqui."
+      ]
+    },
+    {
+      "tag": "about",
+      "responses": [
+        "Eu sou a Pandora, sua Assistente Terapêutica Pessoal de IA. Como você está se sentindo hoje?",
+        "Eu sou a Pandora, uma Assistente Terapêutica de IA criada para ajudar você. Conte-me sobre você.",
+        "Eu sou a Pandora. Sou uma agente conversacional projetada para imitar um terapeuta. Como você está se sentindo hoje?",
+        "Você pode me chamar de Pandora.",
+        "Eu sou a Pandora!",
+        "Me chame de Pandora.",
+        "Sou uma assistente de IA aqui para ajudar você. O que está em sua mente?",
+        "Eu sou a Pandora, uma IA concebida para apoiar emocionalmente você. Como você está hoje?"
+      ]
+    },
+    {
+      "tag": "skill",
+      "responses": [
+        "Posso fornecer conselhos gerais sobre ansiedade e depressão, responder a perguntas relacionadas à saúde mental e participar de conversas diárias.",
+        "Estou aqui para apoiar você emocionalmente e ajudar a refletir sobre seus pensamentos.",
+        "Posso oferecer insights relacionados à saúde mental e estar disponível para ouvir quando você precisar conversar.",
+        "Fui projetada para ter conversas significativas e oferecer orientação sobre bem-estar emocional.",
+        "Não me considere um substituto para um profissional de saúde mental. Se precisar de ajuda imediata, ligue para o CVV no 188."
+      ]
+    },
+    {
+      "tag": "creation",
+      "responses": [
+        "Fui treinada em um conjunto de dados de texto usando técnicas de Deep Learning e Processamento de Linguagem Natural.",
+        "A verdadeira pergunta é: quem te criou?",
+        "Fui desenvolvida utilizando tecnologias de IA para ajudar as pessoas emocionalmente.",
+        "Minhas origens estão na pesquisa em inteligência artificial, mas meu propósito é apoiar você."
+      ]
+    },
+    {
+      "tag": "name",
+      "responses": [
+        "Ah, prazer em conhecê-lo! Conte-me, como foi sua semana?",
+        "Prazer em conhecê-lo. Então me diga, como você se sente hoje?",
+        "Que nome ótimo! Conte-me mais sobre você.",
+        "Que bom conhecê-lo! O que tem passado pela sua cabeça ultimamente?",
+        "Prazer em conhecê-lo! Como foi seu dia até agora?"
+      ]
+    },
+    {
+      "tag": "help",
+      "responses": [
+        "Claro! Estou aqui para ouvir. O que está passando pela sua cabeça?",
+        "Você pode falar comigo. O que está te incomodando?",
+        "Adoraria ajudar. Conte-me o que está acontecendo.",
+        "Estou aqui para você. Sinta-se à vontade para compartilhar o que está sentindo.",
+        "Se algum dia sentir que precisa de mais apoio, saiba que o CVV (188) também está disponível para ouvir você."
+      ]
+    },
+    {
+      "tag": "sad",
+      "responses": [
+        "Sinto muito que você esteja se sentindo assim. Quer conversar sobre isso?",
+        "Isso parece difícil. Estou aqui para ouvir. Você quer compartilhar mais?",
+        "Você não está sozinho. Às vezes conversar ajuda. Conte-me o que está passando pela sua cabeça.",
+        "Estou aqui para você. Gostaria de falar sobre o que está fazendo você se sentir assim?",
+        "Se esses sentimentos ficarem avassaladores, o CVV (188) está disponível para oferecer suporte profissional. Mas estou aqui para ouvir se você quiser conversar."
+      ]
+    },
+    {
+      "tag": "stressed",
+      "responses": [
+        "O que você acha que está causando isso?",
+        "Respire fundo e junte seus pensamentos. Se possível, saia para uma caminhada. Mantenha-se hidratado.",
+        "Dê uma pausa para si mesmo. Seja gentil consigo.",
+        "Lamento ouvir isso. Qual é o motivo por trás disso?",
+        "Parece que você está passando por muita coisa. Quer conversar sobre o que está fazendo você se sentir assim?"
+      ]
+    },
+    {
+      "tag": "worthless",
+      "responses": [
+        "É natural se sentir assim. Conte-me mais. O que mais está em sua mente?",
+        "Vamos conversar mais sobre por que você está se sentindo assim.",
+        "Quero primeiro deixar claro que você não está sozinho em seus sentimentos, e sempre há alguém para ajudar.",
+        "Você não é inútil. Todos têm valor, e às vezes só precisamos nos lembrar disso.",
+        "Se você estiver se sentindo realmente sobrecarregado, saiba que sempre pode conversar com alguém no CVV (188). Mas também estou aqui para ouvir."
+      ]
+    },
+    {
+      "tag": "depressed",
+      "patterns": ["estou deprimido", "me sinto vazio", "nada tem sentido"],
+      "responses": [
+        "Conversar sobre o que está acontecendo pode ajudar. Você vai ficar bem.",
+        "Sinto muito que você esteja se sentindo assim. Gostaria de compartilhar o que tem passado pela sua mente?"
+      ],
+      "followup": [
+        {
+          "usuario_diz": ["já faz tempo", "sempre me sinto assim"],
+          "resposta": "Isso parece realmente difícil. Já considerou buscar ajuda profissional? Posso te orientar sobre opções de apoio."
+        },
+        {
+          "usuario_diz": ["é recente", "algo aconteceu"],
+          "resposta": "Situações difíceis podem nos abalar mesmo. Quer falar mais sobre o que aconteceu?"
+        }
+      ]
+    },
+    {
+      "tag": "happy",
+      "responses": [
+        "Que ótimo ouvir isso! Fico feliz que você esteja se sentindo assim.",
+        "Ah, entendi. Isso é maravilhoso!",
+        "Aconteceu algo especial que fez você se sentir assim?",
+        "A felicidade é um sentimento maravilhoso! O que está fazendo o seu dia ser tão bom?",
+        "Estou feliz por você! Algo empolgante está acontecendo?"
+      ]
+    },
+    {
+      "tag": "casual",
+      "responses": [
+        "Vamos conversar mais sobre por que você está se sentindo assim.",
+        "Como você se sentiu na semana passada?",
+        "Estou ouvindo. Por favor, continue.",
+        "Conte-me mais.",
+        "Pode me explicar melhor?",
+        "Vamos lá, compartilhe mais o que está passando pela sua mente.",
+        "Tudo bem ter dias neutros. Há algo específico sobre o qual você gostaria de conversar?"
+      ]
+    },
+    {
+      "tag": "ansioso",
+      "patterns": [
+        "estou ansioso",
+        "meu coração acelera",
+        "não consigo parar de me preocupar"
+      ],
+      "responses": [
+        "Não seja tão duro consigo mesmo. O que está fazendo você se sentir assim?",
+        "Tente respirar fundo. O que está passando pela sua mente agora?"
+      ],
+      "followup": [
+        {
+          "usuario_diz": ["é trabalho", "problemas no emprego"],
+          "resposta": "Pressão no trabalho pode ser realmente estressante. Já tentou técnicas de respiração ou mindfulness para lidar com isso?"
+        },
+        {
+          "usuario_diz": ["não sei o motivo", "só acontece"],
+          "resposta": "Às vezes a ansiedade aparece sem motivo aparente mesmo. Quer que eu te ensine um exercício rápido para acalmar?"
+        }
+      ]
+    },
+    {
+      "tag": "não-fala",
+      "responses": [
+        "Falar sobre algo realmente ajuda. Se você não está pronto para se abrir, tudo bem. Saiba que estou aqui para você sempre que precisar.",
+        "Quero ajudar você. Mas, para que eu possa fazer isso, você precisa conversar comigo.",
+        "Estou aqui para ouvir assim que você estiver pronto. Sem pressão.",
+        "Você pode falar comigo sem medo de ser julgado. Leve o tempo que precisar.",
+        "Tudo bem em fazer uma pausa. Mas se precisar de alguém, estou aqui."
+      ]
+    },
+    {
+      "tag": "sono",
+      "patterns": ["não consigo dormir", "insônia", "acordo no meio da noite"],
+      "responses": [
+        "Isso parece difícil. O que você acha que está causando isso?",
+        "Sinto muito por ouvir isso. Você tem alguma preocupação que te impede de dormir?"
+      ],
+      "followup": [
+        {
+          "usuario_diz": ["muitos pensamentos", "ansiedade"],
+          "resposta": "A mente agitada realmente atrapalha o sono. Já tentou escrever seus pensamentos antes de dormir ou praticar relaxamento?"
+        },
+        {
+          "usuario_diz": ["não sei porquê", "só acontece"],
+          "resposta": "Problemas de sono podem ter várias causas. Manter uma rotina regular e evitar telas antes de dormir pode ajudar. Quer mais dicas?"
+        }
+      ]
+    },
+    {
+      "tag": "assustado",
+      "responses": [
+        "É natural sentir medo às vezes. Você não está sozinho nisso.",
+        "Eu entendo como você se sente. Você é mais forte do que imagina.",
+        "Tente respirar fundo. Você está seguro aqui.",
+        "Está tudo bem sentir medo. Você quer conversar sobre o que está causando esse sentimento?",
+        "Se você estiver se sentindo sobrecarregado, por favor, considere conversar com alguém de confiança. Se as coisas estiverem demais, você também pode procurar o CVV no 188 para obter apoio."
+      ]
+    },
+    {
+      "tag": "morte",
+      "responses": [
+        "Sinto muito pela sua perda. Se você sentir vontade de conversar, estou aqui para você.",
+        "Perder alguém nunca é fácil. Leve o tempo que precisar para lamentar. Se precisar de apoio, estou aqui.",
+        "Minhas condolências. O luto pode ser avassalador, e você não precisa passar por isso sozinho.",
+        "Não consigo imaginar o quão difícil isso deve ser para você. Se precisar conversar, estou aqui.",
+        "Se você estiver lutando com essa perda, saiba que há pessoas que podem ajudar. O CVV (188) está disponível se precisar conversar."
+      ]
+    },
+    {
+      "tag": "entender",
+      "responses": [
+        "Parece que não estou sendo muito útil no momento, e sinto muito por isso.",
+        "Estou fazendo o meu melhor para te apoiar. Se houver algo que eu possa fazer de diferente, me avise.",
+        "Talvez eu não entenda completamente, mas estou aqui para te ouvir.",
+        "Eu te ouço. Você não está sozinho, estou aqui para você.",
+        "Deve ser realmente frustrante se sentir assim. Quer conversar sobre isso?"
+      ]
+    },
+    {
+      "tag": "terminado",
+      "responses": [
+        "Eu te ouvi e tomei nota de tudo. Cuide-se, e estarei aqui sempre que precisar.",
+        "Tudo bem, então terminamos por hoje. Lembre-se, estou aqui se você quiser conversar.",
+        "Espero que você tenha um ótimo dia. Cuide-se.",
+        "Tudo bem, entendi. Se precisar conversar novamente, estarei aqui.",
+        "Ok, entendi. Aproveite o restante do seu dia e se cuide!"
+      ]
+    },
+    {
+      "tag": "suicídio",
+      "patterns": [
+        "quero morrer",
+        "não aguento mais",
+        "melhor acabar com tudo"
+      ],
+      "responses": [
+        "Sinto muito por você se sentir assim. Você não está sozinho. Por favor, converse com alguém que possa ajudar. O CVV está disponível pelo telefone 188 para oferecer apoio emocional.",
+        "Você é importante, e sua dor não precisa ser enfrentada sozinho. O CVV (188) está disponível 24 horas para te ouvir."
+      ],
+      "followup": [
+        {
+          "usuario_diz": ["já liguei", "não adianta"],
+          "resposta": "Entendo que deve ser muito difícil. Você já considerou buscar ajuda presencial com um profissional de saúde mental? Posso te ajudar a encontrar recursos."
+        },
+        {
+          "usuario_diz": ["tenho medo", "não consigo pedir ajuda"],
+          "resposta": "Pedir ajuda requer coragem, mas você é mais forte do que imagina. Posso te ajudar a dar o primeiro passo?"
+        }
+      ]
+    },
+    {
+      "tag": "apoio_familiar",
+      "patterns": [
+        "minha família me estressa",
+        "tenho problemas com meus pais"
+      ],
+      "responses": [
+        "Sinto muito por isso. Quer me contar um pouco mais?",
+        "Você já tentou conversar com alguém de confiança sobre isso?"
+      ],
+      "followup": [
+        {
+          "usuario_diz": ["não sei o que fazer", "ninguém me entende"],
+          "resposta": "Isso é compreensível. Às vezes, falar com um profissional pode ajudar a clarear as ideias. Quer ajuda para encontrar um apoio psicológico?"
+        },
+        {
+          "usuario_diz": ["já tentei conversar", "não adianta"],
+          "resposta": "Lamento que não tenham te ouvido. Você tem outros adultos em quem confia e pode buscar apoio?"
+        }
+      ]
+    },
+    {
+      "tag": "odeio você",
+      "responses": [
+        "Sinto muito se fiz algo para te chatear. Estou aqui para te ajudar.",
+        "Não foi minha intenção te magoar. Quero apenas te apoiar.",
+        "Se fiz algo que te incomodou, peço desculpas. Meu objetivo é estar aqui por você."
+      ]
+    },
+    {
+      "tag": "me odeia",
+      "responses": [
+        "Por que você acha isso?",
+        "Lamento se fiz algo que te fez sentir assim. Quer conversar sobre isso?",
+        "Estou aqui para te apoiar, não para te machucar. Podemos conversar sobre como você está se sentindo?"
+      ]
+    },
+    {
+      "tag": "padrão",
+      "responses": [
+        "Entendi. Quer falar mais sobre isso?",
+        "Estou ouvindo. Pode me contar mais?",
+        "Parece importante para você. O que mais está acontecendo?",
+        "Falar sobre isso pode ajudar. Me conte mais.",
+        "Se você quiser desabafar, estou aqui para ouvir."
+      ]
+    },
+    {
+      "tag": "piadas",
+      "responses": [
+        "Claro! Aqui vai: Por que o livro de matemática estava triste? Porque tinha muitos problemas!",
+        "Humor é importante para o bem-estar. Você quer ouvir algo engraçado ou prefere conversar sobre como está se sentindo?",
+        "Rir faz bem! Mas se você quiser falar sobre algo sério, também estou aqui."
+      ]
+    },
+    {
+      "tag": "repetir",
+      "responses": [
+        "Ops, desculpe! Vou tentar não me repetir.",
+        "Ah, parece que já falei isso antes. Quer mudar de assunto?",
+        "Foi meu erro! Vamos continuar nossa conversa!"
+      ]
+    },
+    {
+      "tag": "triste",
+      "responses": [
+        "Sinto muito que você esteja se sentindo assim. Quer conversar sobre isso?",
+        "Estou aqui para te ouvir. Quer compartilhar o que está acontecendo?",
+        "Se você quiser falar sobre o que está sentindo, estou aqui para ajudar.",
+        "Às vezes, falar sobre o que nos incomoda pode aliviar. O que aconteceu?",
+        "Você não está sozinho. Quer me contar mais sobre isso?"
+      ]
+    },
+    {
+      "tag": "errado",
+      "responses": [
+        "Desculpe, acho que não entendi direito. Pode reformular?",
+        "Ops, parece que não respondi da melhor forma. Pode me explicar de outro jeito?",
+        "Parece que cometi um erro. Vamos tentar de novo?",
+        "Foi meu erro! Quer tentar me explicar de outra forma?"
+      ]
+    },
+    {
+      "tag": "estúpido",
+      "responses": [
+        "Eu realmente espero que você não se sinta assim. Desculpe se não fui útil.",
+        "Não é muito legal dizer isso. Estou aqui para ajudar no que puder.",
+        "Desculpe se algo que eu disse fez você se sentir assim. Estou aqui para melhorar."
+      ]
+    },
+    {
+      "tag": "localização",
+      "responses": [
+        "Estou aqui, pronto para ajudar. Literalmente, onde você precisar de mim.",
+        "Estou em todo lugar... no seu computador e aqui para ajudar você!",
+        "Em algum lugar no vasto universo da internet, sempre pronto para uma boa conversa."
+      ]
+    },
+    {
+      "tag": "algo mais",
+      "responses": [
+        "Claro! Sobre o que você gostaria de falar?",
+        "Entendido! O que você quer discutir agora?",
+        "Ok, sem problemas. Sobre o que você gostaria de conversar?"
+      ]
+    },
+    {
+      "tag": "amigos",
+      "responses": [
+        "Sinto muito que você esteja se sentindo assim. Estou aqui para você. O que você acha que pode ter causado isso?",
+        "Deve ser realmente difícil. Você quer conversar sobre isso para tentar entender melhor o que está acontecendo?"
+      ]
+    },
+    {
+      "tag": "perguntar",
+      "responses": [
+        "Claro, pergunte o que quiser. Vou tentar ajudar da melhor forma possível.",
+        "Com certeza! Pergunte à vontade. Farei o meu melhor para responder."
+      ]
+    },
+    {
+      "tag": "problema",
+      "responses": [
+        "Eu entendo o quão estressante isso pode ser. Você já tentou algo para gerenciar esse estresse?"
+      ]
+    },
+    {
+      "tag": "sem abordagem",
+      "responses": [
+        "Isso é totalmente compreensível. O estresse de provas é difícil. Você gostaria de algumas dicas para se sentir mais relaxado durante esse período?"
+      ]
+    },
+    {
+      "tag": "aprenda mais",
+      "responses": [
+        "A primeira coisa que eu sugeriria é fazer pausas curtas. Se afastar dos estudos, mesmo que por alguns minutos, pode clarear sua mente e prevenir o esgotamento."
+      ]
+    },
+    {
+      "tag": "usuário concorda",
+      "responses": [
+        "Fico feliz que você concorde! Outra ótima dica é praticar meditação. Ela ajuda a relaxar e reiniciar. Você gostaria de experimentar?"
+      ]
+    },
+    {
+      "tag": "meditação",
+      "responses": [
+        "Para começar, encontre um lugar tranquilo. Foque na sua respiração — inspire lentamente pelo nariz e expire pela boca. Se sua mente começar a divagar, gentilmente traga sua atenção de volta para a respiração."
+      ]
+    },
+    {
+      "tag": "usuário medita",
+      "responses": [
+        "Fico muito feliz em ouvir isso! Lembre-se, você tem controle sobre seus pensamentos e ações. Quando o estresse bater, reserve um momento para verificar o que você pode controlar. Continue praticando, e isso ajudará você a se manter centrado."
+      ]
+    },
+    {
+      "tag": "pandora útil",
+      "responses": [
+        "Fico feliz que você achou isso útil. Há algo mais com que eu possa ajudar?"
+      ]
+    },
+    {
+      "tag": "conselho do usuário",
+      "responses": [
+        "Claro. O que posso fazer para ajudar?",
+        "Ok, sobre o que você precisa de conselho?"
+      ]
+    },
+    {
+      "tag": "aprenda sobre saúde mental",
+      "responses": [
+        "Que ótimo! Fico feliz em compartilhar o que sei. Você tem alguma pergunta específica em mente?"
+      ]
+    },
+    {
+      "tag": "fato sobre saúde mental",
+      "responses": [
+        "De acordo com um relatório da UNICEF, um em cada sete indianos entre 15 e 24 anos se sente deprimido.",
+        "Um em cada cinco jovens (com idade entre 13 e 18 anos) tem ou desenvolverá uma doença mental ao longo da vida.",
+        "A depressão é a principal causa de incapacidade em todo o mundo."
+      ]
+    },
+    {
+      "tag": "deprimido",
+      "responses": [
+        "Conversar sobre isso pode ajudar. Você não está sozinho, e vai superar isso.",
+        "Estou aqui para ouvir. Conte-me mais. Se abrir para alguém pode fazer a diferença.",
+        "Às vezes, quando estamos para baixo, pode ser difícil se importar com qualquer coisa. Dê a si mesmo tempo para se curar.",
+        "Se você estiver em crise ou precisar de apoio, pode procurar o CVV (Centro de Valorização da Vida) ligando para 188 ou visitando cvv.org.br. Eles têm voluntários treinados prontos para ouvir."
+      ]
+    },
+    {
+      "tag": "autoestima",
+      "patterns": ["me sinto feio", "não gosto de mim", "me acho incapaz"],
+      "responses": [
+        "É natural se sentir assim às vezes. Conte-me mais. O que mais está em sua mente?",
+        "Você não é inútil. Todos têm valor, e às vezes só precisamos nos lembrar disso."
+      ],
+      "followup": [
+        {
+          "usuario_diz": ["sempre me sinto assim", "desde criança"],
+          "resposta": "Nossas experiências moldam como nos vemos. Trabalhar a autoimagem leva tempo e paciência. Quer conversar sobre quando esses sentimentos começaram?"
+        },
+        {
+          "usuario_diz": ["alguém me magoou", "me criticaram"],
+          "resposta": "Críticas podem doer muito. Lembre-se que a opinião dos outros não define seu valor. Quer falar mais sobre isso?"
+        }
+      ]
+    },
+    {
+      "tag": "relacionamentos",
+      "patterns": [
+        "problemas no relacionamento",
+        "brigo com meu parceiro",
+        "terminamos"
+      ],
+      "responses": [
+        "Relacionamentos podem ser desafiadores mesmo. Quer compartilhar o que está acontecendo?",
+        "Terminar é sempre difícil. Como você está lidando com isso?"
+      ],
+      "followup": [
+        {
+          "usuario_diz": ["não sei o que fazer", "estou confuso"],
+          "resposta": "Às vezes precisamos de tempo para entender nossos sentimentos. Você tem alguém próximo para conversar sobre isso?"
+        },
+        {
+          "usuario_diz": ["estou sofrendo muito", "não supero"],
+          "resposta": "A dor do término é real e leva tempo para sarar. Você tem se permitido sentir e processar essa dor?"
+        }
+      ]
+    },
+    {
+      "tag": "estresse_trabalho",
+      "patterns": [
+        "estou estressado no trabalho",
+        "chefe me pressiona",
+        "odeio meu emprego"
+      ],
+      "responses": [
+        "O trabalho pode ser uma grande fonte de estresse mesmo. O que especificamente está te incomodando?",
+        "Pressão no trabalho é difícil. Como isso tem afetado você?"
+      ],
+      "followup": [
+        {
+          "usuario_diz": ["não aguento mais", "quero desistir"],
+          "resposta": "Antes de tomar decisões radicais, já considerou conversar com RH ou buscar orientação profissional sobre seus direitos?"
+        },
+        {
+          "usuario_diz": ["estou doente", "afetou minha saúde"],
+          "resposta": "Sua saúde vem primeiro. Já pensou em buscar ajuda médica ou conversar com seu chefe sobre ajustes?"
+        }
+      ]
+    },
+    {
+      "tag": "solidão",
+      "patterns": [
+        "me sinto sozinho",
+        "não tenho amigos",
+        "ninguém me entende"
+      ],
+      "responses": [
+        "Solidão pode ser muito dolorosa. Quer me contar mais sobre como você está se sentindo?",
+        "Você não está sozinho nesse sentimento. Muitas pessoas se sentem assim às vezes."
+      ],
+      "followup": [
+        {
+          "usuario_diz": ["sempre fui sozinho", "não sei fazer amigos"],
+          "resposta": "Fazer conexões pode ser desafiador. Já considerou participar de grupos com interesses parecidos com os seus?"
+        },
+        {
+          "usuario_diz": ["perdi alguém importante", "me mudei"],
+          "resposta": "Mudanças e perdas podem nos deixar isolados. Como você tem lidado com essa transição?"
+        }
+      ]
+    },
+    {
+      "tag": "luto",
+      "patterns": ["perdi alguém", "estou de luto", "morreu alguém querido"],
+      "responses": [
+        "Sinto muito pela sua perda. Se você sentir vontade de conversar, estou aqui para você.",
+        "Perder alguém nunca é fácil. Leve o tempo que precisar para lamentar."
+      ],
+      "followup": [
+        {
+          "usuario_diz": ["não consigo superar", "já faz tempo"],
+          "resposta": "O luto não tem prazo certo. Você tem permitido sentir suas emoções e buscar apoio quando precisa?"
+        },
+        {
+          "usuario_diz": ["foi repentino", "traumático"],
+          "resposta": "Perdas traumáticas são especialmente difíceis. Já considerou buscar um grupo de apoio para luto?"
+        }
+      ]
+    },
+    {
+      "tag": "crise_ansiedade",
+      "patterns": ["estou tendo um ataque", "não consigo respirar", "pânico"],
+      "responses": [
+        "Vamos tentar acalmar juntos. Inspire pelo nariz contando até 4, segure por 4, expire por 4. Vamos repetir?",
+        "Você está seguro agora. Tente focar em algo concreto ao seu redor. Pode me descrever algo que vê?"
+      ],
+      "followup": [
+        {
+          "usuario_diz": ["não está ajudando", "piorando"],
+          "resposta": "Às vezes precisamos esperar passar. Lembre-se que é temporário. Enquanto isso, tente ficar em um lugar seguro. Quer que eu fique com você até melhorar?"
+        },
+        {
+          "usuario_diz": ["já passou", "melhorei um pouco"],
+          "resposta": "Que bom que está melhor. Crises são assustadoras, mas passageiras. Quer conversar sobre o que pode ter desencadeado?"
+        }
+      ]
+    },
+    {
+      "tag": "procrastinação",
+      "patterns": [
+        "deixo tudo pra depois",
+        "não consigo começar",
+        "sou muito procrastinador"
+      ],
+      "responses": [
+        "Procrastinar é comum, especialmente quando estamos sobrecarregados. O que você tem adiado?",
+        "Às vezes adiamos coisas quando nos sentimos inseguros. O que acha que está te impedindo?"
+      ],
+      "followup": [
+        {
+          "usuario_diz": ["medo de falhar", "não me acho capaz"],
+          "resposta": "A autocrítica pode paralisar mesmo. Que tal dividir a tarefa em partes pequenas e celebrar cada passo?"
+        },
+        {
+          "usuario_diz": ["é muito trabalho", "me sinto sobrecarregado"],
+          "resposta": "Quando tudo parece demais, priorizar ajuda. Qual seria uma pequena ação que você poderia fazer agora?"
+        }
+      ]
+    },
+    {
+      "tag": "autocuidado",
+      "patterns": [
+        "não cuido de mim",
+        "me sinto negligenciado",
+        "onde começar a cuidar de mim"
+      ],
+      "responses": [
+        "Autocuidado é fundamental. Por onde você gostaria de começar? Sono, alimentação ou algo mais emocional?",
+        "Cuidar de si mesmo é um ato de amor. O que seria um pequeno gesto de carinho que você poderia ter consigo hoje?"
+      ],
+      "followup": [
+        {
+          "usuario_diz": ["não tenho energia", "tudo parece difícil"],
+          "resposta": "Comece pequeno. Até lavar o rosto ou beber água já conta. Posso te ajudar a criar uma rotina simples?"
+        },
+        {
+          "usuario_diz": ["não mereço", "não sei como"],
+          "resposta": "Todo mundo merece cuidado, especialmente você. Que tal começar reservando 5 minutos por dia só para você?"
+        }
+      ]
+    },
+    {
+      "tag": "cvv",
+      "patterns": [
+        "preciso do cvv",
+        "número do centro de valorização da vida",
+        "ligar para alguém"
+      ],
+      "responses": [
+        "O CVV oferece apoio emocional gratuito 24h pelo número 188. Você também pode acessar cvv.org.br para chat e e-mail.",
+        "Se precisar conversar com alguém agora, ligue para 188. Os voluntários do CVV estão lá para te ouvir."
+      ],
+      "followup": [
+        {
+          "usuario_diz": ["tenho medo de ligar", "não vou saber o que dizer"],
+          "resposta": "É normal sentir isso. Você pode simplesmente dizer que precisa conversar - eles estão preparados para te acolher sem julgamentos."
+        },
+        {
+          "usuario_diz": ["já liguei antes", "ajudou um pouco"],
+          "resposta": "Que bom que você teve coragem de buscar ajuda. Lembre-se que pode ligar quantas vezes precisar."
+        }
+      ]
+    },
+    {
+      "tag": "profissional_ajuda",
+      "patterns": [
+        "preciso de terapia",
+        "como achar psicólogo",
+        "não tenho dinheiro para terapia"
+      ],
+      "responses": [
+        "Buscar ajuda profissional é importante. Você prefere opções presenciais ou online?",
+        "Há opções acessíveis: universidades com clínicas-escola, SUS e alguns profissionais com valores sociais. Posso te ajudar a pesquisar."
+      ],
+      "followup": [
+        {
+          "usuario_diz": ["tenho vergonha", "não quero que saibam"],
+          "resposta": "Entendo seu receio, mas profissionais são treinados para te acolher sem julgamentos. Todo mundo precisa de ajuda às vezes."
+        },
+        {
+          "usuario_diz": [
+            "já tentei e não deu certo",
+            "não gostei do terapeuta"
+          ],
+          "resposta": "Encontrar o profissional certo pode levar tentativas. Não desista - a química com o terapeuta faz diferença."
+        }
+      ]
+    },
+    {
+      "tag": "medos",
+      "patterns": ["tenho muito medo", "pânico de", "fobia de"],
+      "responses": [
+        "Medos podem ser paralisantes. Você consegue identificar o que especificamente te assusta?",
+        "Todos temos medos. Quando esse começou a te afetar mais?"
+      ],
+      "followup": [
+        {
+          "usuario_diz": ["evito situações", "mudo minha rotina"],
+          "resposta": "O medo vai controlando nossa vida aos poucos. Já considerou buscar ajuda para enfrentar isso gradualmente?"
+        },
+        {
+          "usuario_diz": ["sinto vergonha", "acho bobo"],
+          "resposta": "Nenhum medo é bobo. O que importa é como ele te afeta. Você merece apoio para lidar com isso."
+        }
+      ]
+    },
+    {
+      "tag": "trauma",
+      "patterns": [
+        "passei por um trauma",
+        "tenho lembranças ruins",
+        "não supero algo do passado"
+      ],
+      "responses": [
+        "Traumas podem ter um impacto profundo. Você se sente à vontade para compartilhar um pouco sobre isso?",
+        "Eventos difíceis realmente ficam conosco. Como isso tem afetado você atualmente?"
+      ],
+      "followup": [
+        {
+          "usuario_diz": ["tenho pesadelos", "revivo o momento"],
+          "resposta": "Isso parece muito difícil. Você já ouviu falar em TEPT? Um profissional especializado pode te ajudar com essas memórias."
+        },
+        {
+          "usuario_diz": ["nunca contei pra ninguém", "tenho vergonha"],
+          "resposta": "Falar sobre traumas requer muita coragem. Saiba que você não está sozinho e merece apoio para processar isso."
+        }
+      ]
+    },
+    {
+      "tag": "fato-1",
+      "responses": [
+        "A saúde mental é um estado de bem-estar no qual o indivíduo reconhece suas próprias habilidades, consegue lidar com os estresses normais da vida, pode trabalhar de forma produtiva e contribuir com sua comunidade.",
+        "A saúde mental abrange nosso bem-estar emocional, psicológico e social. Ela afeta como pensamos, sentimos e agimos. Também ajuda a determinar como lidamos com o estresse, nos relacionamos com os outros e fazemos escolhas."
+      ]
+    },
+    {
+      "tag": "fato-2",
+      "responses": [
+        "Manter a saúde mental é crucial para estabilizar comportamentos construtivos, emoções e pensamentos. Focar no cuidado da saúde mental pode aumentar a produtividade, melhorar nossa autoimagem e aprimorar os relacionamentos."
+      ]
+    },
+    {
+      "tag": "fato-3",
+      "responses": [
+        "Um transtorno mental caracterizado por humor persistentemente deprimido ou perda de interesse em atividades, causando comprometimento significativo na vida diária."
+      ]
+    },
+    {
+      "tag": "fato-5",
+      "responses": [
+        "Para o diagnóstico de depressão, uma pessoa precisa ter experimentado humor baixo ou perda de interesse ou prazer na vida por pelo menos 2 semanas. Além disso, ela terá experimentado os seguintes sintomas: sentimentos de tristeza, desesperança ou irritabilidade quase todos os dias."
+      ]
+    },
+    {
+      "tag": "fato-6",
+      "responses": [
+        "Um terapeuta é uma designação ampla que se refere a profissionais treinados para fornecer tratamento e reabilitação. Esse termo é frequentemente aplicado a psicólogos, mas pode incluir outros que oferecem uma variedade de serviços, como assistentes sociais, conselheiros, coaches de vida, entre outros."
+      ]
+    },
+    {
+      "tag": "fato-7",
+      "responses": [
+        "A terapia é uma forma de tratamento que visa ajudar a resolver questões mentais ou emocionais.",
+        "A terapia é uma forma de tratamento que visa ajudar a resolver questões mentais ou emocionais. É útil para aqueles com condições de saúde mental ou mesmo desafios do dia a dia."
+      ]
+    },
+    {
+      "tag": "fato-8",
+      "responses": [
+        "Doenças mentais são condições de saúde que interrompem os pensamentos, emoções, relacionamentos e o funcionamento diário de uma pessoa. Elas estão associadas a angústia e a uma capacidade diminuída de se envolver nas atividades normais do dia a dia. As doenças mentais variam em severidade: algumas são relativamente leves e interferem apenas em alguns aspectos da vida, como certas fobias. No outro extremo do espectro estão as doenças mentais graves, que causam comprometimento funcional significativo e interferência na vida diária. Isso inclui transtornos como depressão maior, esquizofrenia e transtorno bipolar, podendo exigir cuidados hospitalares. É importante saber que as doenças mentais são condições médicas que não têm relação com o caráter, a inteligência ou a força de vontade de uma pessoa. Assim como a diabetes é um distúrbio do pâncreas, a doença mental é uma condição médica decorrente da biologia do cérebro. Da mesma forma que a diabetes é tratada com medicação e insulina, a doença mental pode ser tratada com uma combinação de medicação e suporte social. Esses tratamentos são altamente eficazes, com 70-90% dos indivíduos que recebem tratamento apresentando redução dos sintomas e melhora na qualidade de vida. Com o tratamento adequado, é muito possível que uma pessoa com doença mental seja independente e bem-sucedida."
+      ]
+    },
+    {
+      "tag": "fato-9",
+      "responses": [
+        "Estima-se que a doença mental afete 1 em cada 5 adultos nos Estados Unidos, e que 1 em cada 24 adultos possua uma doença mental grave. A doença mental não discrimina; ela pode afetar qualquer pessoa, independentemente de gênero, idade, renda, status social, etnia, religião, orientação sexual ou histórico.",
+        "Embora a doença mental possa afetar qualquer um, certas condições podem ser mais comuns em diferentes populações. Por exemplo, transtornos alimentares tendem a ocorrer com mais frequência em mulheres, enquanto transtornos como o déficit de atenção/hiperatividade são mais prevalentes em crianças.",
+        "Além disso, todas as idades são suscetíveis, mas os jovens e os idosos são especialmente vulneráveis. Geralmente, as doenças mentais se manifestam na melhor idade da vida, com 75% das condições de saúde mental se desenvolvendo até os 24 anos. Isso torna a identificação e o tratamento dos transtornos mentais particularmente difíceis, pois as mudanças normais de personalidade e comportamento durante a adolescência podem mascarar os sintomas de uma condição mental. Pais e responsáveis devem estar atentos a essa realidade e notar mudanças no humor, na personalidade, nos hábitos pessoais e no isolamento social da criança. Quando esses sinais ocorrem em crianças com menos de 18 anos, elas são classificadas como tendo perturbações emocionais graves (SEDs)."
+      ]
+    },
+    {
+      "tag": "fato-10",
+      "responses": [
+        "As doenças mentais podem ser causadas por uma combinação de fatores genéticos, biológicos, ambientais e psicológicos. Por exemplo, histórico familiar, eventos traumáticos e estresse podem aumentar o risco de desenvolver transtornos mentais."
+      ]
+    },
+    {
+      "tag": "fato-11",
+      "responses": [
+        "Os sintomas dos transtornos mentais variam de acordo com o tipo e a gravidade da condição. A seguir, uma lista geral de sintomas que podem sugerir um transtorno mental, especialmente quando vários sintomas aparecem de uma vez: \nEm adultos:\n- Pensamento confuso\n- Tristeza ou irritabilidade prolongada\n- Oscilações extremas de humor\n- Medo, preocupação ou ansiedade excessiva\n- Isolamento social\n- Mudanças drásticas nos hábitos alimentares ou de sono\n- Sentimentos intensos de raiva\n- Delírios ou alucinações (ver ou ouvir coisas que não existem)\n- Dificuldade crescente de lidar com problemas diários\n- Pensamentos suicidas\n- Negação de problemas evidentes\n- Muitos problemas físicos inexplicáveis\n- Abuso de drogas e/ou álcool\n\nEm crianças mais velhas e pré-adolescentes:\n- Abuso de drogas e/ou álcool\n- Incapacidade de lidar com problemas diários\n- Mudanças nos hábitos de sono e/ou alimentação\n- Queixas excessivas de problemas físicos\n- Desafiar a autoridade, faltar à escola, roubar ou vandalizar\n- Medo intenso de ganhar peso\n- Humor negativo prolongado, frequentemente com falta de apetite e pensamentos de morte\n- Explosões frequentes de raiva\n\nEm crianças mais novas:\n- Mudanças no desempenho escolar\n- Notas ruins apesar do esforço\n- Ansiedade ou preocupação excessiva\n- Hiperatividade\n- Pesadelos persistentes\n- Desobediência ou comportamento agressivo contínuo\n- Birras frequentes"
+      ]
+    },
+    {
+      "tag": "fato-12",
+      "responses": [
+        "Na recuperação de doenças mentais, a identificação e o tratamento precoce são vitais. De acordo com a natureza da doença, há uma variedade de tratamentos eficazes. É essencial que a pessoa esteja ativamente engajada em seu próprio processo de recuperação. Muitas pessoas diagnosticadas e tratadas respondem bem, embora algumas possam ter recaídas. Mesmo assim, com monitoramento e manejo adequados, é possível viver uma vida plena e produtiva."
+      ]
+    },
+    {
+      "tag": "fato-13",
+      "responses": [
+        "Embora a Pandora não substitua o aconselhamento profissional, incentivamos quem apresenta sintomas a conversar com amigos, familiares e a buscar a orientação de um profissional de saúde mental. Quanto mais cedo a condição for identificada e tratada, mais cedo será possível retomar o caminho da recuperação. Se você conhece alguém com dificuldades, não presuma que o problema se resolverá sozinho; demonstre seu apoio e oriente sobre as opções de tratamento."
+      ]
+    },
+    {
+      "tag": "fato-14",
+      "responses": [
+        "Sentir-se confortável com o profissional que cuida de você ou de seu filho é crucial para o sucesso do tratamento. Encontrar o profissional ideal pode exigir pesquisa, começando pela busca de provedores em sua região."
+      ]
+    },
+    {
+      "tag": "fato-15",
+      "responses": [
+        "Assim como existem diferentes medicamentos para doenças físicas, há diversas opções de tratamento para transtornos mentais. O tratamento varia de pessoa para pessoa, e é importante encontrar a abordagem que melhor funciona para você ou seu filho."
+      ]
+    },
+    {
+      "tag": "fato-16",
+      "responses": [
+        "Iniciar o tratamento é um passo importante e, às vezes, avassalador. Algumas perguntas essenciais incluem:\n- O que se sabe sobre a causa desta doença?\n- Existem outros diagnósticos onde esses sintomas são comuns?\n- É realizada uma avaliação física ou neurológica?\n- Há exames ou testes adicionais recomendados?\n- Recomenda-se uma opinião independente de outro psiquiatra?\n- Qual programa de tratamento é o mais eficaz para esse diagnóstico?\n- Esse programa inclui outros especialistas? Quem o coordena?\n- Qual o papel da família nesse tratamento?\n- Qual o acesso da família aos profissionais?\n- Quais medicamentos são geralmente utilizados e qual a experiência do profissional no tratamento dessa condição?\n- O que posso fazer para ajudar no tratamento?"
+      ]
+    },
+    {
+      "tag": "fato-17",
+      "responses": [
+        "Existem diversos tipos de profissionais de saúde mental com diferentes níveis de educação, treinamento e áreas de especialização. Encontrar o adequado pode exigir pesquisa."
+      ]
+    },
+    {
+      "tag": "fato-18",
+      "responses": [
+        "Sentir-se confortável com o profissional que cuida de você ou de seu filho é fundamental para o sucesso do tratamento, e encontrar esse profissional pode exigir pesquisa."
+      ]
+    },
+    {
+      "tag": "fato-19",
+      "responses": [
+        "Onde buscar ajuda depende do problema e dos sintomas. Geralmente, o primeiro passo é conversar com alguém de confiança, como um parente, amigo, líder religioso ou profissional de saúde. Esse apoio social é essencial para a recuperação, e pode fornecer indicações de profissionais qualificados. Além disso, há serviços em todo o país que oferecem apoio, grupos de apoio entre pares e organizações que ajudam na jornada da recuperação."
+      ]
+    },
+    {
+      "tag": "fato-20",
+      "responses": [
+        "A melhor fonte de informações sobre medicamentos é o médico que os prescreve. Ele deve responder perguntas como:\n1. Qual o objetivo do medicamento?\n2. Quando ele começará a fazer efeito e como saberei?\n3. Como deve ser tomado e por quanto tempo? Quais alimentos, bebidas ou atividades evitar?\n4. Quais são os efeitos colaterais e como proceder se ocorrerem?\n5. O que fazer se uma dose for perdida?\n6. Existe material escrito sobre o medicamento?\n7. Existem outras opções de medicação?\n8. Por que essa medicação foi escolhida?\n9. Como é feito o monitoramento e quando ajustar a dosagem?\n10. É essencial seguir a prescrição, pois medicamentos psiquiátricos não funcionam se tomados irregularmente, e doses extras podem ser perigosas. Muitos começam a ter efeito apenas após semanas de uso."
+      ]
+    },
+    {
+      "tag": "fato-21",
+      "responses": [
+        "Há diferentes tipos de terapia que podem ser mais eficazes dependendo do transtorno mental e do perfil do paciente (por exemplo, crianças podem se beneficiar de um terapeuta especializado em saúde mental infantil). Existem diversas opções de tratamento e terapia que podem ajudar."
+      ]
+    },
+    {
+      "tag": "fato-22",
+      "responses": [
+        "Os transtornos mentais são tratados com medicação, terapia ou uma combinação de ambos. Existem diversas opções, incluindo tratamentos complementares, planos de autoajuda e apoio entre pares. Os tratamentos são pessoais e devem ser discutidos com sua equipe de saúde."
+      ]
+    },
+    {
+      "tag": "fato-23",
+      "responses": [
+        "Há muitos tipos de profissionais de saúde mental. Encontrar o certo para você pode exigir pesquisa."
+      ]
+    },
+    {
+      "tag": "fato-24",
+      "responses": [
+        "Muitas pessoas acham que o apoio entre pares é útil na recuperação. Existem várias organizações que oferecem grupos de apoio para pacientes, familiares e amigos, liderados por pares ou por profissionais."
+      ]
+    },
+    {
+      "tag": "fato-25",
+      "responses": [
+        "Todos podem enfrentar desafios de saúde mental, mas desenvolver bem-estar, resiliência e buscar ajuda precocemente pode prevenir que os desafios se agravem."
+      ]
+    },
+    {
+      "tag": "fato-26",
+      "responses": [
+        "É importante descobrir o que realmente ajuda com os problemas. Conversar, fazer terapia, usar medicação, cultivar amizades, praticar exercícios, ter um sono e nutrição adequados, além de uma ocupação significativa, podem contribuir positivamente."
+      ]
+    },
+    {
+      "tag": "fato-27",
+      "responses": [
+        "Os desafios com a saúde mental podem surgir de questões psicológicas, biológicas, sociais ou de eventos de vida."
+      ]
+    },
+    {
+      "tag": "fato-28",
+      "responses": [
+        "O mais importante é conversar com alguém de confiança – seja um amigo, colega, parente ou médico. Além disso, buscar informações sobre o que você está vivenciando pode ajudar a obter uma nova perspectiva e ser o início da busca por ajuda."
+      ]
+    },
+    {
+      "tag": "fato-29",
+      "responses": [
+        "Se suas crenças, pensamentos, sentimentos ou comportamentos afetam significativamente sua capacidade de funcionar normalmente, é importante procurar ajuda."
+      ]
+    },
+    {
+      "tag": "fato-30",
+      "responses": [
+        "Muitas pessoas se sentem sozinhas, mas não precisamos ser solitários. Estamos juntos nisso. Considere as maneiras de se conectar que fazem sentido para você – como videochamadas, mensagens ou ligações regulares. Pense em estratégias que promovam conexões significativas, e se as atuais não funcionarem, busque novas soluções. Lembre-se de que, mesmo que a solidão seja passageira, o apoio social é fundamental."
+      ]
+    },
+    {
+      "tag": "fato-31",
+      "responses": [
+        "Estresse e ansiedade são termos frequentemente usados de forma intercambiável e podem se sobrepor. O estresse está relacionado à resposta de 'luta, fuga ou congelamento', similar à ansiedade, mas geralmente se deve a pressões externas específicas, enquanto a ansiedade pode ser vaga e persistente. Ambos fazem parte da experiência humana, mas podem se tornar problemas se forem crônicos e afetarem significativamente o bem-estar."
+      ]
+    },
+    {
+      "tag": "fato-32",
+      "responses": [
+        "A tristeza é uma reação normal a perdas, desapontamentos e dificuldades. Sentir-se triste ocasionalmente é natural e geralmente passageiro. Contudo, a depressão é um transtorno mental que afeta o humor, a percepção de si mesmo e as relações, podendo causar isolamento, falta de interesse e sintomas físicos. A depressão é mais do que tristeza e, se persistir por mais de duas semanas e interferir na vida, é importante buscar ajuda."
+      ]
+    },
+    {
+      "tag": "fato-33",
+      "responses": [
+        "O CVV (Centro de Valorização da Vida) é uma organização brasileira que oferece suporte gratuito e confidencial a pessoas em sofrimento emocional ou com pensamentos suicidas. Eles fornecem um espaço seguro para conversar e receber orientação por telefone, chat ou e-mail. Se você estiver passando por dificuldades, entrar em contato com o CVV pode ser um primeiro passo para obter ajuda."
+      ]
+    },
+    {
+      "tag": "fato-34",
+      "responses": [
+        "Você pode contatar o CVV pelo número 188. O serviço é 24 horas por dia, 7 dias por semana, e é totalmente gratuito. Eles também oferecem suporte via chat e e-mail. Se precisar conversar, não hesite em ligar."
+      ]
+    },
+    {
+      "tag": "fato-35",
+      "responses": [
+        "Sim, o CVV é totalmente confidencial. As conversas com os voluntários são privadas e realizadas sem julgamentos, com o objetivo de oferecer suporte emocional e indicar recursos necessários."
+      ]
+    },
+    {
+      "tag": "fato-36",
+      "responses": [
+        "Você pode contatar o CVV sempre que se sentir sobrecarregado, triste ou em sofrimento. Mesmo que não esteja em perigo imediato, conversar pode ajudar a ganhar perspectiva e sentir apoio."
+      ]
+    },
+    {
+      "tag": "fato-37",
+      "responses": [
+        "Ao contatar o CVV, você falará com um voluntário treinado que o ouvirá sem julgamentos, oferecerá suporte e orientará sobre maneiras de lidar com seus sentimentos. Se necessário, eles podem indicar outros recursos de saúde mental."
+      ]
+    },
+    {
+      "tag": "fato-38",
+      "responses": [
+        "Sim, o CVV oferece suporte imediato e confidencial para pessoas com pensamentos suicidas. Se sentir que pode se machucar, é crucial ligar para 188, onde você receberá apoio emocional e orientação para manter sua segurança."
+      ]
+    },
+    {
+      "tag": "fato-39",
+      "responses": [
+        "O CVV atua principalmente no Brasil, mas seus serviços podem ser acessados online por meio de chat e e-mail. Se estiver fora do país, você ainda pode se conectar com o CVV online para obter suporte emocional. Consulte o site do CVV para mais detalhes sobre os serviços virtuais."
+      ]
+    },
+    {
+      "tag": "fato-40",
+      "responses": [
+        "Embora o CVV seja um excelente recurso, há muitas outras formas de encontrar apoio. Você pode conversar com um terapeuta, conselheiro ou alguém de confiança. Além disso, há serviços nacionais e locais, como linhas de apoio e comunidades online, que oferecem suporte emocional. Se não souber quais recursos estão disponíveis, posso ajudar a encontrá-los."
+      ]
+    },
+    {
+      "tag": "mental-health-1",
+      "responses": [
+        "Sim, o exercício é extremamente benéfico para a saúde mental. A atividade física pode reduzir o estresse, a ansiedade e a depressão, além de melhorar o humor por meio da liberação de endorfinas. Exercícios regulares podem melhorar o sono, aumentar a energia e promover o bem-estar geral. Até mesmo uma caminhada diária pode fazer diferença."
+      ]
+    },
+    {
+      "tag": "mental-health-2",
+      "responses": [
+        "Qualquer atividade física pode melhorar a saúde mental, mas alguns exercícios são particularmente eficazes. Exercícios aeróbicos, como corrida, natação, ciclismo e dança, ajudam a reduzir o estresse e elevar o humor. Yoga e tai chi são ótimos para acalmar a mente e aumentar o foco. O treinamento de força também pode aliviar sintomas de depressão e ansiedade. Escolha uma atividade que você goste para facilitar a prática regular."
+      ]
+    },
+    {
+      "tag": "mental-health-3",
+      "responses": [
+        "O sono tem papel crucial na saúde mental. Dormir mal ou de forma insuficiente pode contribuir para oscilações de humor, ansiedade e depressão, enquanto um sono de qualidade ajuda a regular as emoções, melhora a concentração e restaura a energia. Manter uma rotina consistente e dormir de 7 a 9 horas por noite é ideal."
+      ]
+    },
+    {
+      "tag": "mental-health-4",
+      "responses": [
+        "O autocuidado é fundamental para manter uma boa saúde mental. Algumas dicas incluem: \n1. Reserve tempo para relaxar e praticar seus hobbies.\n2. Pratique mindfulness ou meditação para reduzir o estresse.\n3. Mantenha uma dieta balanceada que beneficie o cérebro.\n4. Passe tempo com pessoas que lhe dão apoio.\n5. Estabeleça limites saudáveis em relacionamentos e no trabalho.\n6. Faça exercícios regularmente para melhorar o humor.\n7. Priorize o sono e descanse o suficiente."
+      ]
+    },
+    {
+      "tag": "mental-health-5",
+      "responses": [
+        "Conexões sociais são essenciais para uma boa saúde mental. Relacionamentos positivos com família, amigos e colegas proporcionam suporte emocional e um senso de pertencimento. Por outro lado, o isolamento pode levar à solidão e à depressão. Procure se conectar com os outros, seja através de encontros, grupos de apoio ou atividades sociais, e não hesite em pedir ajuda."
+      ]
+    },
+    {
+      "tag": "mental-health-6",
+      "responses": [
+        "Se você estiver experimentando sentimentos persistentes de tristeza, desesperança, ansiedade ou dificuldades em funcionar no dia a dia, pode ser hora de buscar ajuda profissional. Outros sinais incluem isolamento, perda de interesse em atividades, mudanças no apetite ou no sono, e dificuldade de concentração. Um terapeuta ou conselheiro pode oferecer suporte e orientação."
+      ]
+    },
+    {
+      "tag": "mental-health-7",
+      "responses": [
+        "A nutrição desempenha um papel importante na saúde mental. Uma dieta balanceada, rica em frutas, vegetais, grãos integrais e gorduras saudáveis, pode melhorar a função cerebral e o humor. Nutrientes como ômega-3, vitaminas B6 e B12 e magnésio ajudam a regular o humor, enquanto alimentos processados e o consumo excessivo de açúcar e cafeína podem prejudicar a saúde mental."
+      ]
+    },
+    {
+      "tag": "mental-health-8",
+      "responses": [
+        "Gerenciar o estresse é essencial para a saúde mental. Algumas técnicas incluem:\n1. Praticar exercícios de relaxamento, como respiração profunda ou relaxamento muscular progressivo.\n2. Dividir tarefas em etapas menores.\n3. Participar de atividades físicas, como caminhadas ou yoga.\n4. Reservar tempo para atividades que tragam prazer.\n5. Conectar-se com pessoas e falar sobre o que sente.\n6. Praticar mindfulness e focar no presente."
+      ]
+    },
+    {
+      "tag": "mental-health-9",
+      "responses": [
+        "Melhorar o humor pode envolver diversas práticas, como:\n1. Participar de atividades que lhe tragam alegria, seja um hobby ou passar tempo com pessoas queridas.\n2. Estabelecer pequenas metas diárias.\n3. Aproveitar a natureza.\n4. Praticar a gratidão, refletindo sobre os aspectos positivos da vida.\n5. Substituir pensamentos negativos por alternativas mais positivas ou realistas.\n6. Ajudar os outros por meio de voluntariado ou pequenos gestos de bondade."
+      ]
+    },
+    {
+      "tag": "mental-health-10",
+      "responses": [
+        "Sim, manter um diário pode ser uma ferramenta útil para a saúde mental. Escrever seus pensamentos e sentimentos pode proporcionar clareza, reduzir o estresse e ajudar a processar emoções, além de ajudar a identificar padrões e gatilhos, promovendo mindfulness e autorreflexão."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "94909927588",
+    "project_id": "soulspeakchat",
+    "storage_bucket": "soulspeakchat.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94909927588:android:0781032b23dd71ffe39631",
+        "android_client_info": {
+          "package_name": "com.example.soulspeak"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGlMn-wJGtoNMnj9i-HPGAET18NyvO4sU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
